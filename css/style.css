@@ -406,7 +406,6 @@ li {
   margin-right: 10px;
   width: 44px;
   height: 44px;
-  padding-bottom: 30px;
 }
 
 .item-social:last-child {
@@ -414,12 +413,13 @@ li {
 }
 
 .social-link {
-  width: 100%;
-  height: 100%;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 
@@ -487,6 +487,7 @@ li {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  padding-top: 94px;
 }
 .developers-name {
   margin-bottom: 10px;
@@ -774,6 +775,12 @@ li {
   margin-left: var(--presentation-set);
   margin-top: var(--presentation-set);
 }
+
+.presentation-item:hover {
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .inner-text-present {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -808,3 +815,8 @@ li {
 .cards-portfolio {
   display: block;
 }
+
+/* .link-presentation:hover {
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
